@@ -11,21 +11,7 @@ import "./App.css";
 class App extends Component {
   state = {
     todos: [
-      {
-        id: uuid.v4(),
-        title: "Take out the trash",
-        completed: false
-      },
-      {
-        id: uuid.v4(),
-        title: "Dinner with wife",
-        completed: true
-      },
-      {
-        id: uuid.v4(),
-        title: "Metting with boss",
-        completed: false
-      }
+    
     ]
   };
 
